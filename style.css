@@ -10,7 +10,6 @@
 .header {
     min-width: 1184px;
     max-height: 52px;
-    max-width: 1600px;
     padding: 28px 48px 0;
     
 
@@ -23,7 +22,7 @@
 
 .header__lang-link {
     height: 28px;
-    color: white;
+    color: #FFFFFF;
     font-size: 24px;
     line-height: 1.2;
     font-weight: normal;
@@ -43,6 +42,59 @@
     text-decoration: none;
 }
 
+.lead {
+    width: 984px;
+    height: 1005px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+    margin: auto;
+    padding-top: 56px;
+}
+
+.section-title {
+    width: 720px;
+    height: 200px;
+    line-height: 1.04;
+    font-size: 96px;
+    font-weight: bold;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.section-subtitle {
+    width: 640px;
+    height: 72px;
+    margin: 32px auto 0;
+    font-weight: normal;
+    line-height: 1.2;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.lead__image {
+    width: 984px;
+    height: 615px;
+    margin: 64px auto 8px;
+}
+
+.caption {
+    color: #FFFFFF;
+    margin: 0;
+    align-items: start;
+    font-size: 10px;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
 div {
     border: 1px double red;
 }
+
+section {
+    border: 1px double red;
+}
+
