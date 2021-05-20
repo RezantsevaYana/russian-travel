@@ -1,3 +1,48 @@
 .page {
+    min-width: 1280px;
+    height: 6875px;
+    margin: 0 auto;
     font-family: "Inter", sans-serif;
+    background-color: #2A2C2F;
+    position: relative;
+}
+
+.header {
+    min-width: 1184px;
+    max-height: 52px;
+    max-width: 1600px;
+    padding: 28px 48px 0;
+    
+
+}
+
+.header__logo {
+    width: 176px;
+    height: 52px;
+}
+
+.header__lang-link {
+    height: 28px;
+    color: white;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: normal;
+    position: absolute;
+}
+
+.header__lang-link_ru {
+    width: 30px;
+    top: 46px;
+    right: 95px;
+}
+
+.header__lang-link_en {
+    width: 29px;
+    top: 46px;
+    right: 48px;
+    text-decoration: none;
+}
+
+div {
+    border: 1px double red;
 }
