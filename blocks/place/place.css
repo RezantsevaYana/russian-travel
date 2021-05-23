@@ -1,13 +1,19 @@
 .place {
     width: 984px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: fit-content(152px) 460px;
+    grid-template-columns: 460px 484px;
+    row-gap: 48px;
+    column-gap: 40px;
 }
 
 @media screen and (max-width: 1024px) {
     .place {
         width: 928px;
-        display: flex;
-        flex-direction: column;
+        grid-template-rows: fit-content(152px) 456px;
+        grid-template-columns: 440px 484px;
+        row-gap: 48px;
+        column-gap: 32px;
     }
 }
+
