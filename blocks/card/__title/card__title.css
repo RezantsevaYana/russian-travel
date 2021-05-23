@@ -1,0 +1,9 @@
+.card__title {
+    width: 460px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    color: #FFFFFF;
+    margin: 0 40px 0 0;
+}

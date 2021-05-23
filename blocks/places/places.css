@@ -1,0 +1,7 @@
+.places {
+    padding-top: 92px;
+    padding-bottom: 92px;
+    display: grid;
+    row-gap: 80px;
+    justify-items: center;
+}

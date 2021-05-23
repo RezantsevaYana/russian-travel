@@ -46,7 +46,6 @@
 
 .lead__container {
     width: 984px;
-
 }
 
 .section-title {
@@ -72,7 +71,7 @@
 }
 
 .lead__image {
-    width: 984px;
+    width: 100%;
     height: 615px;
     margin: 64px auto 8px;
 }
@@ -99,7 +98,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-content: flex-start;
-
 }
 
 .intro__title {
@@ -210,6 +208,11 @@
     color: #FFFFFF;
 }
 
+.card__link:hover {
+    opacity: .8;
+    transition-duration: .1s;
+}
+
 .card__main-text {
     display: flex;
     flex-direction: row;
@@ -229,10 +232,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-
 }
 
-.card__paragraph__text {
+.card__paragraph_text {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -240,9 +242,6 @@
     color: #FFFFFF;
     margin: 0 0 26px;
 }
-
-
-
 
 
 
@@ -310,7 +309,6 @@
     margin: 0 412px 245px;
     -webkit-font-smoothing: antialiased;
     position: relative;
-
 }
 
 .footer {
@@ -331,7 +329,6 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    
     padding: 0;
     margin: 0;
 }

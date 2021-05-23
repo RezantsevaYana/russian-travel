@@ -1,0 +1,8 @@
+.intro__container {
+    width: 984px;
+    height: 429px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+}
