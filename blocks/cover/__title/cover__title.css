@@ -7,10 +7,14 @@
     line-height: 1.06;
     color: #FFFFFF;
     text-align: center;
-    /* position: absolute;
-    top: 245px;
-    left: 312px; */
     margin: 245px 312px 32px;
     -webkit-font-smoothing: antialiased;
     position: relative;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        margin: 195px 232px 32px;
+    }
+}
+

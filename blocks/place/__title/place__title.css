@@ -1,4 +1,4 @@
-.card__title {
+.place__title {
     width: 460px;
     font-style: normal;
     font-weight: 900;
@@ -6,4 +6,11 @@
     line-height: 1.06;
     color: #FFFFFF;
     margin: 0 40px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        width: 440px;
+        margin: 0 32px 0 0;
+    }
 }

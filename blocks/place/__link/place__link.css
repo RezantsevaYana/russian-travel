@@ -1,4 +1,4 @@
-.card__link {
+.place__link {
     width: 456px;
     height: 22px;
     font-style: normal;
@@ -9,7 +9,7 @@
     color: #FFFFFF;
 }
 
-.card__link:hover {
+.place__link:hover {
     opacity: .8;
     transition-duration: .1s;
 }

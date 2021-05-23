@@ -1,0 +1,13 @@
+.place {
+    width: 984px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        width: 928px;
+        display: flex;
+        flex-direction: column;
+    }
+}
