@@ -8,3 +8,12 @@
     color: #FFFFFF;
     text-align: center;
 }
+
+@media screen and (max-width: 320px) {
+    .section-title {
+        width: 288px;
+        height: 88px;
+        line-height: 1.10;
+        font-size: 40px;
+    }
+}

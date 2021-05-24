@@ -28,11 +28,19 @@
     .cover__container {
         width: 1024px;
         height: 640px;
-        background-image: url(../../../images/cover-trains.jpg);
-        background-size: cover;
-        box-sizing: border-box;
-        position: relative;
-        list-style: none;
-        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__container {
+        width: 786px;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__container {
+        width: 320px;
+        height: 200px;
     }
 }

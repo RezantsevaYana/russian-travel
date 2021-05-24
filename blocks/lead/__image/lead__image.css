@@ -10,3 +10,16 @@
         margin: 56px auto 8px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image {
+        height: 200px;
+        margin: 40px auto 8px;
+    }
+}

@@ -7,3 +7,10 @@
         width: 928px;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .lead__container {
+        width: 100%;
+    }
+}

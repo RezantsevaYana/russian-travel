@@ -1,6 +1,5 @@
 .intro__container {
     width: 984px;
-    height: 429px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -10,10 +9,17 @@
 @media screen and (max-width: 1024px) {
     .intro__container {
         width: 928px;
-        height: 429px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__container {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__container {
+        width: 288px;
     }
 }
