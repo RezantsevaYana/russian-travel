@@ -1,4 +1,4 @@
-.into__text {
+.intro__text {
     width: 690px;
     color: #FFFFFF;
     margin: 0 0 33px;
@@ -8,13 +8,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .into__text {
+    .intro__text {
         width: 720px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .into__text {
+    .intro__text {
         width: 288px;
         margin: 0 0 34px;
     }

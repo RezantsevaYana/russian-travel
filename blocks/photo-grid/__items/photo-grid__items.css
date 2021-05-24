@@ -1,4 +1,4 @@
-.photo-grid__images {
+.photo-grid__items {
     width: 1184px;
     margin: 0 auto 0;
     display: grid;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .photo-grid__images {
+    .photo-grid__items {
         width: 928px;
         margin: 0 auto 0;
         display: grid;
@@ -19,14 +19,14 @@
 }
 
 @media screen and (max-width: 768px) {
-    .photo-grid__images {
+    .photo-grid__items {
         width: 720px;
         grid-template-columns: repeat(2, auto);
     }
 }
 
 @media screen and (max-width: 320px) {
-    .photo-grid__images {
+    .photo-grid__items {
         width: 288px;
         grid-template-columns: repeat(1, auto);
         grid-template-rows: auto;
