@@ -1,5 +1,5 @@
 .section-title {
-    width: 720px;
+    max-width: 720px;
     height: 200px;
     line-height: 1.04;
     font-size: 96px;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 320px) {
     .section-title {
-        width: 288px;
+        max-width: 288px;
         height: 88px;
         line-height: 1.10;
         font-size: 40px;

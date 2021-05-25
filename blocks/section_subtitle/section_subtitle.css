@@ -1,5 +1,5 @@
 .section-subtitle {
-    width: 640px;
+    max-width: 640px;
     height: 72px;
     margin: 32px auto 0;
     font-weight: normal;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 320px) {
     .section-subtitle {
-        width: 288px;
+        max-width: 288px;
         height: 40px;
         margin: 16px auto 0;
         line-height: 1.25;

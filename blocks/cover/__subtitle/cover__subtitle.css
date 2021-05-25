@@ -7,20 +7,26 @@
     line-height: 1.22;
     color: #FFFFFF;
     text-align: center;
-    margin: 0 412px 245px;
+    margin: 0 auto 245px;
     -webkit-font-smoothing: antialiased;
     position: relative;
 }
 
+@media screen and (max-width: 1100px) {
+    .cover__subtitle {
+        margin: 0 auto 195px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .cover__subtitle {
-        margin: 0 332px 195px;
+        margin: 0 auto 195px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__subtitle {
-        margin: 0 204px 115px;
+        margin: 0 auto 115px;
     }
 }
 
@@ -30,6 +36,6 @@
         height: 48px;
         font-size: 14px;
         line-height: 1.14;
-        margin: 0 16px 33px;
+        margin: 0 auto 33px;
     }
 }
