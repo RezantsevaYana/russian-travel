@@ -7,11 +7,21 @@
     margin: 0;
 }
 
+@media screen and (max-width: 576px) {
+    .footer__links {
+        width: 90%;
+        height: 248px;
+        flex-direction: column;
+        align-content: flex-end;
+    }
+}
+
+
+
 @media screen and (max-width: 320px) {
     .footer__links {
         width: 288px;
         height: 248px;
-        display: flex;
         flex-direction: column;
         align-content: flex-end;
     }

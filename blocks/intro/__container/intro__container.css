@@ -18,6 +18,13 @@
     }
 }
 
+@media screen and (max-width: 680px) {
+    .intro__container {
+        max-width: 90%;
+    }
+}
+
+
 @media screen and (max-width: 320px) {
     .intro__container {
         max-width: 288px;

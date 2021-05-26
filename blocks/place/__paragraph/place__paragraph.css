@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 484px;
+    max-width: 484px;
 }
 
 .place__paragraph :last-of-type {
@@ -12,14 +12,14 @@
 
 @media screen and (max-width: 1024px) {
     .place__paragraph {
-        width: 456px;
+        max-width: 456px;
     }
 }
 
 
 @media screen and (max-width: 768px) {
     .place__paragraph {
-        width: 352px;
+        max-width: 352px;
     }
 }
 
